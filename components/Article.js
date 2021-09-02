@@ -177,7 +177,7 @@ function makeArticle(title, date, one, two, three){
   articleContentOne.textContent = one;
   articleContentTwo.textContent = two;
   articleContentThree.textContent = three;
-  articleButton.textContent = '+';
+  articleButton.textContent = 'Clic Here => +';
 
   //adding event listener to button
   articleButton.addEventListener('click', () => {
